@@ -41,6 +41,8 @@ button {
     border-radius: 4px;
     cursor: pointer;
     font-size: 1.1em;
+    width: 100%;  /* Ensure the button takes full width */
+    margin: 10px 0;  /* Space between buttons */
 }
 
 button:hover {
@@ -48,7 +50,7 @@ button:hover {
 }
 
 .view-project-btn {
-    margin-bottom: 15px; /* Add space below "View Project" button */
+    background-color: #007BFF; /* Blue color for "View Project" */
 }
 
 .view-code-btn {
