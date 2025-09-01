@@ -43,17 +43,25 @@ button {
     font-size: 1.1em;
 }
 
+button:hover {
+    background-color: #0056b3;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* pushes footer down */
+}
+
 footer {
     text-align: center;
     background-color: #333;
     color: #fff;
-    padding: 12px 0;
+    padding: 10px 0;
     font-weight: bold;
-    margin-top: 40px; /* space above footer */
-    border-top: 3px solid #007BFF; /* highlight with a blue top border */
-}
-
-
-button:hover {
-    background-color: #0056b3;
 }
