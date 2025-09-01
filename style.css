@@ -47,6 +47,14 @@ button:hover {
     background-color: #0056b3;
 }
 
+.view-project-btn {
+    margin-bottom: 15px; /* Add space below "View Project" button */
+}
+
+.view-code-btn {
+    background-color: #28a745; /* Green color for "View Source Code" */
+}
+
 html, body {
     height: 100%;
     margin: 0;
